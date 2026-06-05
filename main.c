@@ -25,8 +25,8 @@
     fputc('\n', stdout) \
 )
 
-#define ROW_MAX 16
-#define COL_MAX 16
+#define ROW_MAX 1024
+#define COL_MAX 1024
 
 static struct {
     int exist;
